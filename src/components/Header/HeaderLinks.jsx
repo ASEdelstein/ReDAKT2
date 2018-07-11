@@ -37,7 +37,7 @@ class HeaderLinks extends React.Component {
     return (
       <div>
         <div className={classes.searchWrapper}>
-        <CustomInput
+        {/* <CustomInput
           formControlProps={{
             className: classes.margin + " " + classes.search
           }}
@@ -50,7 +50,7 @@ class HeaderLinks extends React.Component {
         />
         <Button color="white" aria-label="edit" justIcon round>
           <Search />
-        </Button>
+        </Button> */}
       </div>
         <Button
           color={window.innerWidth > 959 ? "transparent" : "white"}
@@ -77,7 +77,7 @@ class HeaderLinks extends React.Component {
               className={classes.buttonLink}
             >
               <Notifications className={classes.icons} />
-              <span className={classes.notifications}>5</span>
+              <span className={classes.notifications}>3</span>
               <Hidden mdUp>
                 <p onClick={this.handleClick} className={classes.linkText}>
                   Notification
@@ -106,31 +106,22 @@ class HeaderLinks extends React.Component {
                       onClick={this.handleClose}
                       className={classes.dropdownItem}
                     >
-                      Mike John responded to your email
+                      You are halfway towards paying off your credit cards!
                     </MenuItem>
                     <MenuItem
                       onClick={this.handleClose}
                       className={classes.dropdownItem}
                     >
-                      You have 5 new tasks
+                      You have saved $2000 towards your trip to Italy!
                     </MenuItem>
                     <MenuItem
                       onClick={this.handleClose}
                       className={classes.dropdownItem}
                     >
-                      You're now friend with Andrew
-                    </MenuItem>
-                    <MenuItem
-                      onClick={this.handleClose}
-                      className={classes.dropdownItem}
-                    >
-                      Another Notification
-                    </MenuItem>
-                    <MenuItem
-                      onClick={this.handleClose}
-                      className={classes.dropdownItem}
-                    >
-                      Another One
+                      
+                   
+                    
+                      You are at 10% of your home downpayment goal!
                     </MenuItem>
                   </MenuList>
                 </Paper>
