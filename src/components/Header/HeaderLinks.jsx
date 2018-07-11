@@ -52,7 +52,7 @@ class HeaderLinks extends React.Component {
           <Search />
         </Button> */}
       </div>
-        <Button
+        {/* <Button
           color={window.innerWidth > 959 ? "transparent" : "white"}
           justIcon={window.innerWidth > 959}
           simple={!(window.innerWidth > 959)}
@@ -63,7 +63,7 @@ class HeaderLinks extends React.Component {
           <Hidden mdUp>
             <p className={classes.linkText}>Dashboard</p>
           </Hidden>
-        </Button>
+        </Button> */}
         <Manager className={classes.manager}>
           <Target>
             <Button
@@ -129,7 +129,7 @@ class HeaderLinks extends React.Component {
             </ClickAwayListener>
           </Popper>
         </Manager>
-        <Button
+        {/* <Button
           color={window.innerWidth > 959 ? "transparent" : "white"}
           justIcon={window.innerWidth > 959}
           simple={!(window.innerWidth > 959)}
@@ -140,7 +140,7 @@ class HeaderLinks extends React.Component {
           <Hidden mdUp>
             <p className={classes.linkText}>Profile</p>
           </Hidden>
-        </Button>
+        </Button> */}
       </div>
     );
   }

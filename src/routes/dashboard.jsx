@@ -60,13 +60,13 @@ const dashboardRoutes = [
   //   icon: LocationOn,
   //   component: Maps
   // },
-  // {
-  //   path: "/notifications",
-  //   sidebarName: "Notifications",
-  //   navbarName: "Notifications",
-  //   icon: Notifications,
-  //   component: NotificationsPage
-  // },
+  {
+    path: "/notifications",
+    sidebarName: "Goals",
+    navbarName: "Notifications",
+    icon: Notifications,
+    component: NotificationsPage
+  },
   // {
   //   path: "/upgrade-to-pro",
   //   sidebarName: "Upgrade To PRO",

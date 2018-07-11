@@ -13,6 +13,7 @@ import Snackbar from "components/Snackbar/Snackbar.jsx";
 import Card from "components/Card/Card.jsx";
 import CardHeader from "components/Card/CardHeader.jsx";
 import CardBody from "components/Card/CardBody.jsx";
+import Form from "components/Card/Form.js"
 
 const styles = {
   cardCategoryWhite: {
@@ -73,7 +74,7 @@ class Notifications extends React.Component {
     return (
       <Card>
         <CardHeader color="primary">
-          <h4 className={classes.cardTitleWhite}>Notifications</h4>
+          <h4 className={classes.cardTitleWhite}>Goals</h4>
           <p className={classes.cardCategoryWhite}>
             Handcrafted by our friends from{" "}
             <a target="_blank" href="https://material-ui-next.com/">
@@ -87,8 +88,9 @@ class Notifications extends React.Component {
               full documentation
             </a>.
           </p>
+          <Form />
         </CardHeader>
-        <CardBody>
+        {/* <CardBody>
           <Grid container>
             <GridItem xs={12} sm={12} md={6}>
               <h5>Notifications Style</h5>
@@ -281,10 +283,11 @@ class Notifications extends React.Component {
               </Grid>
             </GridItem>
           </Grid>
-        </CardBody>
+        </CardBody> */}
       </Card>
     );
   }
 }
+
 
 export default withStyles(styles)(Notifications);
