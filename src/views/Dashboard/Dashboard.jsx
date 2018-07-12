@@ -217,7 +217,7 @@ class Dashboard extends React.Component {
               headerColor="primary"
               tabs={[
                 {
-                  tabName: "Debts",
+                  tabName: "Completed",
                   tabIcon: BugReport,
                   tabContent: (
                     <Tasks
@@ -228,7 +228,7 @@ class Dashboard extends React.Component {
                   )
                 },
                 {
-                  tabName: "Banking",
+                  tabName: "Current",
                   tabIcon: Code,
                   tabContent: (
                     <Tasks
@@ -239,7 +239,7 @@ class Dashboard extends React.Component {
                   )
                 },
                 {
-                  tabName: "Rainy Day",
+                  tabName: "Future",
                   tabIcon: Cloud,
                   tabContent: (
                     <Tasks
@@ -267,8 +267,8 @@ class Dashboard extends React.Component {
                   tableData={[
                     ["45", "John Doe", "$76,738", "FrontEnd Dev"],
                     ["44", "Jane Doe", "$77,789", "BackEnd Dev"],
-                    ["16", "Timmy Doe", "$6,523", "P/T Paper Route"],
-                    ["1", "Jenny Doe", "$3,125", "Gerber Baby Model"]
+                    ["13", "Timmy Doe", "$6,523", "P/T Paper Route"],
+                    ["8", "Jenny Doe", "$3,125", "P/T Gap Kids Model"]
                   ]}
                 />
               </CardBody>
