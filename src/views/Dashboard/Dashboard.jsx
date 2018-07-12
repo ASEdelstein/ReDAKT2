@@ -63,9 +63,9 @@ class Dashboard extends React.Component {
                 <CardIcon color="warning">
                   <ContentCopy />
                 </CardIcon>
-                <p className={classes.cardCategory}>Used Space</p>
+                <p className={classes.cardCategory}>Financial Goals Set</p>
                 <h3 className={classes.cardTitle}>
-                  49/50 <small>GB</small>
+                  10/15 <small></small>
                 </h3>
               </CardHeader>
               <CardFooter stats>
@@ -74,7 +74,7 @@ class Dashboard extends React.Component {
                     <Warning />
                   </Danger>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
-                    Get more space
+                    Set Another Goal
                   </a>
                 </div>
               </CardFooter>
@@ -86,13 +86,13 @@ class Dashboard extends React.Component {
                 <CardIcon color="success">
                   <Store />
                 </CardIcon>
-                <p className={classes.cardCategory}>Revenue</p>
-                <h3 className={classes.cardTitle}>$34,245</h3>
+                <p className={classes.cardCategory}>Monthly Income</p>
+                <h3 className={classes.cardTitle}>$13,681.25</h3>
               </CardHeader>
               <CardFooter stats>
                 <div className={classes.stats}>
                   <DateRange />
-                  Last 24 Hours
+                  Pay Bi weekly
                 </div>
               </CardFooter>
             </Card>
@@ -103,13 +103,13 @@ class Dashboard extends React.Component {
                 <CardIcon color="danger">
                   <InfoOutline />
                 </CardIcon>
-                <p className={classes.cardCategory}>Fixed Issues</p>
-                <h3 className={classes.cardTitle}>75</h3>
+                <p className={classes.cardCategory}>Monthly Expenses</p>
+                <h3 className={classes.cardTitle}>$4,456.68</h3>
               </CardHeader>
               <CardFooter stats>
                 <div className={classes.stats}>
                   <LocalOffer />
-                  Tracked from Github
+                  Tracked
                 </div>
               </CardFooter>
             </Card>
@@ -120,13 +120,13 @@ class Dashboard extends React.Component {
                 <CardIcon color="info">
                   <Accessibility />
                 </CardIcon>
-                <p className={classes.cardCategory}>Followers</p>
-                <h3 className={classes.cardTitle}>+245</h3>
+                <p className={classes.cardCategory}>Family Members</p>
+                <h3 className={classes.cardTitle}>2 Adults / 2 Children</h3>
               </CardHeader>
               <CardFooter stats>
                 <div className={classes.stats}>
                   <Update />
-                  Just Updated
+                  Add New Member
                 </div>
               </CardFooter>
             </Card>
@@ -145,12 +145,12 @@ class Dashboard extends React.Component {
                 />
               </CardHeader>
               <CardBody>
-                <h4 className={classes.cardTitle}>Daily Sales</h4>
+                <h4 className={classes.cardTitle}>Weekly Expenses</h4>
                 <p className={classes.cardCategory}>
                   <span className={classes.successText}>
-                    <ArrowUpward className={classes.upArrowCardCategory} /> 55%
+                    <ArrowUpward className={classes.upArrowCardCategory} /> 5%
                   </span>{" "}
-                  increase in today sales.
+                  increase in today expenses.
                 </p>
               </CardBody>
               <CardFooter chart>
@@ -173,14 +173,14 @@ class Dashboard extends React.Component {
                 />
               </CardHeader>
               <CardBody>
-                <h4 className={classes.cardTitle}>Email Subscriptions</h4>
+                <h4 className={classes.cardTitle}>Monthly Expenses</h4>
                 <p className={classes.cardCategory}>
-                  Last Campaign Performance
+                  Rolling 12 Month Performance
                 </p>
               </CardBody>
               <CardFooter chart>
                 <div className={classes.stats}>
-                  <AccessTime /> campaign sent 2 days ago
+                  <AccessTime /> last Updated 2 days ago
                 </div>
               </CardFooter>
             </Card>
@@ -197,9 +197,9 @@ class Dashboard extends React.Component {
                 />
               </CardHeader>
               <CardBody>
-                <h4 className={classes.cardTitle}>Completed Tasks</h4>
+                <h4 className={classes.cardTitle}>Daily Expenses</h4>
                 <p className={classes.cardCategory}>
-                  Last Campaign Performance
+                  Rolling 24 Hrs Performance
                 </p>
               </CardBody>
               <CardFooter chart>
@@ -217,7 +217,7 @@ class Dashboard extends React.Component {
               headerColor="primary"
               tabs={[
                 {
-                  tabName: "Bugs",
+                  tabName: "Debts",
                   tabIcon: BugReport,
                   tabContent: (
                     <Tasks
@@ -228,7 +228,7 @@ class Dashboard extends React.Component {
                   )
                 },
                 {
-                  tabName: "Website",
+                  tabName: "Banking",
                   tabIcon: Code,
                   tabContent: (
                     <Tasks
@@ -239,7 +239,7 @@ class Dashboard extends React.Component {
                   )
                 },
                 {
-                  tabName: "Server",
+                  tabName: "Rainy Day",
                   tabIcon: Cloud,
                   tabContent: (
                     <Tasks
@@ -255,20 +255,20 @@ class Dashboard extends React.Component {
           <GridItem xs={12} sm={12} md={6}>
             <Card>
               <CardHeader color="warning">
-                <h4 className={classes.cardTitleWhite}>Employees Stats</h4>
+                <h4 className={classes.cardTitleWhite}>Family Income Breakdown</h4>
                 <p className={classes.cardCategoryWhite}>
-                  New employees on 15th September, 2016
+                  $164,175 as of 07.12.18
                 </p>
               </CardHeader>
               <CardBody>
                 <Table
                   tableHeaderColor="warning"
-                  tableHead={["ID", "Name", "Salary", "Country"]}
+                  tableHead={["Age", "Name", "Salary", "Role"]}
                   tableData={[
-                    ["1", "Dakota Rice", "$36,738", "Niger"],
-                    ["2", "Minerva Hooper", "$23,789", "Curaçao"],
-                    ["3", "Sage Rodriguez", "$56,142", "Netherlands"],
-                    ["4", "Philip Chaney", "$38,735", "Korea, South"]
+                    ["45", "John Doe", "$76,738", "FrontEnd Dev"],
+                    ["44", "Jane Doe", "$77,789", "BackEnd Dev"],
+                    ["16", "Timmy Doe", "$6,523", "P/T Paper Route"],
+                    ["1", "Jenny Doe", "$3,125", "Gerber Baby Model"]
                   ]}
                 />
               </CardBody>
