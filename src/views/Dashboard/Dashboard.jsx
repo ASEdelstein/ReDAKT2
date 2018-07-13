@@ -63,9 +63,9 @@ class Dashboard extends React.Component {
                 <CardIcon color="warning">
                   <ContentCopy />
                 </CardIcon>
-                <p className={classes.cardCategory}>Used Space</p>
+                <p className={classes.cardCategory}>Goals</p>
                 <h3 className={classes.cardTitle}>
-                  49/50 <small>GB</small>
+                  Goals <small></small>
                 </h3>
               </CardHeader>
               <CardFooter stats>
@@ -80,7 +80,7 @@ class Dashboard extends React.Component {
               </CardFooter>
             </Card>
           </GridItem>
-          <GridItem xs={12} sm={6} md={3}>
+          {/* <GridItem xs={12} sm={6} md={3}>
             <Card>
               <CardHeader color="success" stats icon>
                 <CardIcon color="success">
@@ -113,15 +113,15 @@ class Dashboard extends React.Component {
                 </div>
               </CardFooter>
             </Card>
-          </GridItem>
+          </GridItem> */}
           <GridItem xs={12} sm={6} md={3}>
             <Card>
               <CardHeader color="info" stats icon>
                 <CardIcon color="info">
                   <Accessibility />
                 </CardIcon>
-                <p className={classes.cardCategory}>Followers</p>
-                <h3 className={classes.cardTitle}>+245</h3>
+                <p className={classes.cardCategory}>Debt</p>
+                <h3 className={classes.cardTitle}>Debt</h3>
               </CardHeader>
               <CardFooter stats>
                 <div className={classes.stats}>
@@ -132,7 +132,7 @@ class Dashboard extends React.Component {
             </Card>
           </GridItem>
         </Grid>
-        <Grid container>
+        {/* <Grid container>
           <GridItem xs={12} sm={12} md={4}>
             <Card chart>
               <CardHeader color="success">
@@ -274,7 +274,7 @@ class Dashboard extends React.Component {
               </CardBody>
             </Card>
           </GridItem>
-        </Grid>
+        </Grid> */}
       </div>
     );
   }
