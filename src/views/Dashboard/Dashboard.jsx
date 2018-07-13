@@ -86,8 +86,8 @@ class Dashboard extends React.Component {
                 <CardIcon color="success">
                   <Store />
                 </CardIcon>
-                <p className={classes.cardCategory}>Monthly Income</p>
-                <h3 className={classes.cardTitle}>$13,681.25</h3>
+                <p className={classes.cardCategory}>Net Monthly Income</p>
+                <h3 className={classes.cardTitle}>$8,681.25</h3>
               </CardHeader>
               <CardFooter stats>
                 <div className={classes.stats}>
@@ -104,7 +104,7 @@ class Dashboard extends React.Component {
                   <InfoOutline />
                 </CardIcon>
                 <p className={classes.cardCategory}>Monthly Expenses</p>
-                <h3 className={classes.cardTitle}>$4,456.68</h3>
+                <h3 className={classes.cardTitle}>$5,456.68</h3>
               </CardHeader>
               <CardFooter stats>
                 <div className={classes.stats}>
