@@ -65,7 +65,7 @@ class Dashboard extends React.Component {
                 </CardIcon>
                 <p className={classes.cardCategory}>Financial Goals Set</p>
                 <h3 className={classes.cardTitle}>
-                  10/15 <small></small>
+                  04/10 <small></small>
                 </h3>
               </CardHeader>
               <CardFooter stats>
@@ -121,7 +121,7 @@ class Dashboard extends React.Component {
                   <Accessibility />
                 </CardIcon>
                 <p className={classes.cardCategory}>Family Members</p>
-                <h3 className={classes.cardTitle}>2 Adults / 2 Children</h3>
+                <h3 className={classes.cardTitle}>2 + 2</h3>
               </CardHeader>
               <CardFooter stats>
                 <div className={classes.stats}>
@@ -213,11 +213,11 @@ class Dashboard extends React.Component {
         <Grid container>
           <GridItem xs={12} sm={12} md={6}>
             <CustomTabs
-              title="Tasks:"
+              title="Family Goals:"
               headerColor="primary"
               tabs={[
                 {
-                  tabName: "Completed",
+                  tabName: "John D.",
                   tabIcon: BugReport,
                   tabContent: (
                     <Tasks
@@ -228,7 +228,7 @@ class Dashboard extends React.Component {
                   )
                 },
                 {
-                  tabName: "Current",
+                  tabName: "Jane D.",
                   tabIcon: Code,
                   tabContent: (
                     <Tasks
@@ -239,7 +239,7 @@ class Dashboard extends React.Component {
                   )
                 },
                 {
-                  tabName: "Future",
+                  tabName: "Timmy",
                   tabIcon: Cloud,
                   tabContent: (
                     <Tasks
@@ -248,7 +248,7 @@ class Dashboard extends React.Component {
                       tasks={server}
                     />
                   )
-                }
+                },
               ]}
             />
           </GridItem>
@@ -267,7 +267,7 @@ class Dashboard extends React.Component {
                   tableData={[
                     ["45", "John Doe", "$76,738", "FrontEnd Dev"],
                     ["44", "Jane Doe", "$77,789", "BackEnd Dev"],
-                    ["13", "Timmy Doe", "$6,523", "P/T Paper Route"],
+                    ["14", "Timmy Doe", "$6,523", "P/T Paper Route"],
                     ["8", "Jenny Doe", "$3,125", "P/T Gap Kids Model"]
                   ]}
                 />

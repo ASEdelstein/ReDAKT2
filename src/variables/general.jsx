@@ -3,19 +3,20 @@
 // #############################
 
 var bugs = [
-  'Sign contract for "What are conference organizers afraid of?"',
-  "Lines From Great Russian Literature? Or E-mails From My Boss?",
-  "Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit",
-  "Create 4 Invisible User Experiences you Never Knew About"
+  'Build a mid-level emergency fund of $10,000.',
+  "Automate your savings.",
+  "Automate your bills.",
+  "Pay off all of your credit card debts."
 ];
 var website = [
-  "Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit",
-  'Sign contract for "What are conference organizers afraid of?"'
+  'Start Saving for 2nd home down payment',
+  "Travel: Italy Vacation",
+  'Complete your emergency fund so you have at least 6 months’ expenses saved.'
 ];
 var server = [
-  "Age 50: Consider making catch-up contributions to IRAs and qualified retirement plans.",
-  "Age 55: You can take distributions from 401(k) plans without penalty if retired.",
-  'Age 59½: You can take distributions from IRAs without penalty.'
+  "Build a starter emergency fund of $1,000.",
+  "Write a 5 year financial plan.",
+  'Earn extra income.'
 ];
 
 module.exports = {
