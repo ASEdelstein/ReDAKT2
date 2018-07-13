@@ -80,7 +80,7 @@ class HeaderLinks extends React.Component {
               <span className={classes.notifications}>3</span>
               <Hidden mdUp>
                 <p onClick={this.handleClick} className={classes.linkText}>
-                  Notification
+                  Goals
                 </p>
               </Hidden>
             </Button>

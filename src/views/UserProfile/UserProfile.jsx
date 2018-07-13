@@ -160,7 +160,7 @@ function UserProfile(props) {
               <h6 className={classes.cardCategory}>Coders Anonymous</h6>
               <h4 className={classes.cardTitle}>Guy Fawkes</h4>
               <p className={classes.description}>
-               Keep on keepin on...
+              “Remember remember the fifth of November Gunpowder, treason and plot. I see no reason why gunpowder, treason Should ever be forgot...”
               </p>
               <Button color="primary" round>
                 Follow
