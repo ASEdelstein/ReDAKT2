@@ -76,17 +76,17 @@ class Notifications extends React.Component {
         <CardHeader color="primary">
           <h4 className={classes.cardTitleWhite}>Goals</h4>
           <p className={classes.cardCategoryWhite}>
-            Handcrafted by our friends from{" "}
+            Insert Details Below:{" "}
             <a target="_blank" href="https://material-ui-next.com/">
-              Material UI
+              
             </a>{" "}
-            and styled by{" "}
+            {" "}
             <a target="_blank" href="https://www.creative-tim.com/">
-              Creative Tim
-            </a>. Please checkout the{" "}
+             
+            </a>{" "}
             <a href="#pablo" target="_blank">
-              full documentation
-            </a>.
+              
+            </a>
           </p>
           <Form />
         </CardHeader>
